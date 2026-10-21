@@ -1,0 +1,67 @@
+body {
+  background-color: #121212;
+  color: #cccccc;
+}
+
+.hero.is-dark {
+  background-color: #0a0a0a;
+  border-bottom: 2px solid #2ecc71;
+}
+
+.hero .title {
+  color: #2ecc71;
+  text-shadow: 0 0 8px rgba(46, 204, 113, 0.4);
+}
+
+.tabs.has-background-light {
+  background-color: #1a1a1a;
+}
+
+.tabs a {
+  color: #888888;
+  border-bottom-color: #333;
+}
+
+.tabs li.is-active a {
+  color: #2ecc71;
+  border-bottom-color: #2ecc71;
+}
+
+.tabs a:hover {
+  color: #2ecc71;
+  background-color: #222;
+  border-bottom-color: #2ecc71;
+}
+
+.box {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.box .title {
+  color: #2ecc71;
+}
+
+.box strong {
+  color: #2ecc71;
+}
+
+.box .content {
+  color: #cccccc;
+}
+
+.image img {
+  border-radius: 4px;
+  border: 1px solid #2ecc71;
+  opacity: 0.9;
+}
+
+.footer {
+  background-color: #0a0a0a;
+  border-top: 1px solid #2ecc71;
+}
+
+.footer p {
+  color: #666666;
+}

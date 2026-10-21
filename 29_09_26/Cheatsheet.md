@@ -1,26 +1,26 @@
 # Cheatsheet Webauftritt
 
-Autor: Oleksandr Krizhanovskyi<br/>
+Autor: Oleksandr Krizhanovskyi  
 Version: 29.09.2026
 
 ## Begriffe zum Webauftritt
 
-- **Webauftritt**:<br/> Ein Webauftritt ist die Gesamtheit aller digitalen Inhalte und Funktionen, die eine Person oder Organisation im Internet präsentiert, z. B. eine Website mit mehreren Seiten, Informationen und Angeboten.
-- **Webseite**:<br/> Eine Webseite ist eine HTML-Seite, die im Browser angezeigt wird und bestimmte Inhalte oder Funktionen enthält.
-- **Webpage**:<br/> Ein Webpage ist ein weiterer Begriff für eine Webseite; meist wird der Begriff in der englischen Fachsprache verwendet.
-- **HTML**:<br/> HTML bedeutet HyperText Markup Language. HTML ist die Grundsprache zur Strukturierung von Inhalten im Web. Damit werden Texte, Überschriften, Bilder, Listen und Verknüpfungen definiert.
-- **CSS**:<br/> CSS bedeutet Cascading Style Sheets. CSS beschreibt das Aussehen und das Layout.
+- **Webauftritt**: Ein Webauftritt ist die Gesamtheit aller digitalen Inhalte und Funktionen, die eine Person oder Organisation im Internet präsentiert, z. B. eine Website mit mehreren Seiten, Informationen und Angeboten.
+- **Webseite**: Eine Webseite ist eine HTML-Seite, die im Browser angezeigt wird und bestimmte Inhalte oder Funktionen enthält.
+- **Webpage**: Ein Webpage ist ein weiterer Begriff für eine Webseite; meist wird der Begriff in der englischen Fachsprache verwendet.
+- **HTML**: HTML bedeutet HyperText Markup Language. HTML ist die Grundsprache zur Strukturierung von Inhalten im Web. Damit werden Texte, Überschriften, Bilder, Listen und Verknüpfungen definiert.
+- **CSS**: CSS bedeutet Cascading Style Sheets. CSS beschreibt das Aussehen und das Layout.
 
 ## Request / Response & Netzwerk
 
-- **IP-Adresse**:<br/> Eine IP-Adresse ist die eindeutige Nummer, mit der Geräte im Netzwerk (zBsp. im Internet) identifiziert werden. Sie funktioniert wie eine Telefonnummer: jeder Rechner braucht sie, um erreichbar zu sein.
+- **IP-Adresse**: Eine IP-Adresse ist die eindeutige Nummer, mit der Geräte im Netzwerk (zBsp. im Internet) identifiziert werden. Sie funktioniert wie eine Telefonnummer: jeder Rechner braucht sie, um erreichbar zu sein.
   - **IPv4**: vier Zahlenblöcke (0–255), zBsp `192.168.0.1`
   - **IPv6**: längere, hexadezimale Schreibweise, weil es viel mehr Adressen gibt, zBsp `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
 
-- **Request**:<br/> Anfragen von Clients (zBsp Browsern) an den Server.
-- **Response**:<br/> Antwort des Servers. Der Server schickt die passende Antwort zurück. Diese enthält den Status (zBsp Erfolg oder Fehler) und die Daten (zBsp HTML-Seite, JSON, Bilddatei).
+- **Request**: Anfragen von Clients (zBsp Browsern) an den Server.
+- **Response**: Antwort des Servers. Der Server schickt die passende Antwort zurück. Diese enthält den Status (zBsp Erfolg oder Fehler) und die Daten (zBsp HTML-Seite, JSON, Bilddatei).
 
-- **URL (Uniform Resource Locator)**:<br/> Ist die Adresse einer Ressource im Internet. Sie zeigt dem Browser, wo etwas liegt und wie es abgerufen wird.
+- **URL (Uniform Resource Locator)**: Ist die Adresse einer Ressource im Internet. Sie zeigt dem Browser, wo etwas liegt und wie es abgerufen wird.
   - _Beispiel_: `https://www.beispiel.ch:443/pfad/datei.html?suche=test#anker`
   - `https` → Protokoll
   - `www.beispiel.ch` → Domain/Server
@@ -31,7 +31,7 @@ Version: 29.09.2026
 
 ## HTML, Tags
 
-### Heading/Überschrift:
+### Heading/Überschrift
 
 - h1 ... h6
 

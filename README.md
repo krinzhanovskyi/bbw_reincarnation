@@ -18,13 +18,13 @@ The materials in this repository cover the technologies used during my studies a
 
 Clone to local machine:
 
-```
+```bash
 git clone <Repository_URL>
 ```
 
 Save and push the latest changes:
 
-````
+````bash
 git add .
 git commit -m "update: added new materials"
 git push
