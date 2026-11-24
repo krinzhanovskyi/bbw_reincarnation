@@ -1,0 +1,31 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.furniture {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 600px) {
+    .contacts {
+        grid-template-columns: 1fr 1fr;
+    }
+}

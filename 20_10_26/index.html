@@ -1,51 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Meine erste Website</title>
-  </head>
-  <body class="is-flex is-flex-direction-column" style="min-height: 100vh">
-    <header class="hero is-dark">
-      <div class="hero-body">
-        <h1 class="title has-text-centered">Willkommen auf meiner Website</h1>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Schreinerei Meier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <header>
+        <h1>Schreinerei Meier</h1>
+        <nav>
+            <a href="index.html" aria-current="page">Startseite</a> |
+            <a href="preise.html">Preise</a> |
+            <a href="holzarten.html">Holzarten</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+        <hr>
     </header>
-    <nav class="tabs is-centered is-medium has-background-light">
-      <ul>
-        <li class="is-active"><a href="index.html">Startseite</a></li>
-        <li><a href="about.html">Über mich</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
-      </ul>
-    </nav>
-    <main class="section is-flex-grow-1">
-      <div class="container">
-        <article class="box">
-          <h2 class="title is-3 has-text-primary">Das ist die Startseite</h2>
 
-          <p class="content">
-            Hier steht der <strong>wichtigste Inhalt</strong>, der
-            <em>nur</em> auf dieser Seite zu finden ist.
-          </p>
-          <figure class="image is-16by9 mt-4">
-            <img
-              src="https://bulma.io/images/placeholders/640x360.png"
-              alt="Platzhalter Bild für die Startseite"
-            />
-          </figure>
-        </article>
-      </div>
+    <main>
+        <h1>Schreinerei Meier, Ihre Werkstatt für gutes Wohnen</h1>
+        <p>Willkommen bei der Schreinerei Meier im Internet!</p>
+        <p>Wir sind seit vielen Jahren darauf spezialisiert, alle Kundenwünsche zu erfüllen.
+            In unserer Werkstatt produzieren wir selbst – mit Holz aus regionaler, nachhaltiger Forstwirtschaft.</p>
+
+        <h2>Unsere Leistungen</h2>
+        <ul>
+            <li>Möbel nach Ihren Wünschen</li>
+            <li>Haustüren</li>
+            <li>Gartenzäune</li>
+            <li>Reparaturen</li>
+        </ul>
+
+        <h2 id="Geschichte">Unsere Geschichte</h2>
+        <p>Die Anfänge unserer Schreinerei gehen bis ins Mittelalter zurück. Damals hat Horst Holzmann
+            angefangen, Möbel, die er eigentlich für sich selbst gemacht hat, auf dem Markt in der nächsten Stadt zu verkaufen.</p>
+        <p>Sein Sohn hat die Tradition weitergeführt. Heute führt Harry Meier den Betrieb in der 15. Generation
+            und bildet seinen Enkel als Nachfolger aus.</p>
     </main>
 
-    <footer class="footer has-background-dark has-text-light pb-4 pt-4">
-      <div class="content has-text-centered">
-        <p>&copy; 2026 Oleksandr Krizhanovskyi. Alle Rechte vorbehalten.</p>
-      </div>
+    <footer>
+        <hr>
+        <p>© 2026 Schreinerei Meier</p>
     </footer>
-  </body>
+</body>
 </html>
